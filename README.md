@@ -10,4 +10,6 @@ open terminal and type - yarn develop
 
 this will start strapi backend server which contains product details.
 
+## cd to client 
+
 then in client type - npm start 
