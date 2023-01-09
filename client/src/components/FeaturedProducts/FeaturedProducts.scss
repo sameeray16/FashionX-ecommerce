@@ -1,0 +1,44 @@
+.FeaturedProducts{
+    margin: 100px 200px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        h1{
+            text-transform: capitalize;
+        }
+
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .FeaturedProducts{
+        margin: 10px;
+    
+        .top{
+            margin: 10px;
+        }
+
+   .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .card{
+        margin: 0;
+    }
+   }
+
+}
+
+}

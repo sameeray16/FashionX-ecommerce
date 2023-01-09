@@ -1,0 +1,66 @@
+.contact{
+    background-color: #2879fe;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+    .wrapper{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    input{
+        padding: 10px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+    }
+
+    button{
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border-radius: 0 10px 10px 0 ;
+        border: none;
+    }
+
+    .icons{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .contact{
+        display: flex;
+        justify-content: center;
+
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+
+            span{
+                padding-bottom: 10px;
+            }
+
+            .mail{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            input{
+
+                padding: 5px;
+            }
+
+            button{
+                padding: 5px;
+            }
+
+        
+        }
+    }
+}
